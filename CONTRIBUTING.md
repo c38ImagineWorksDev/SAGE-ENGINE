@@ -39,13 +39,21 @@ Even in early prototyping, we honor sacred conventions:
 Use the following format:
 
 /SAGE_Core/
+
 /SAGE_Blueprints/
+
 /SAGE_Structs/
+
 /SAGE_Functions/
+
 /SAGE_UI/
+
 /SAGE_Docs/
+
 /SAGE_DeveAssets/
+
 /SAGE_Effects/
+
 /SAGE_Tests/
 
 
