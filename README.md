@@ -1,3 +1,5 @@
+![SAGE Banner](Assets/Banner.png)
+
 # STYNTHREAD ADVANCED GAME ENGINE (SAGE)
 
 **"This engine should not exist... but I'm gonna build it anyway."**
