@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/c38ImagineWorksDev/SAGE-ENGINE/blob/main/docs/img/changelog_header.png?raw=true" alt="SAGE Changelog">
+  <img src="https://github.com/c38ImagineWorksDev/SAGE-ENGINE/blob/master/docs/img/changelog_header.png?raw=true" alt="SAGE Changelog">
 </p>
 
 # 🧵 SAGE Engine – CHANGELOG
