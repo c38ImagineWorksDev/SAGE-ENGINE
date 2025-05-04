@@ -1,11 +1,14 @@
 ![SAGE Banner](Assets/SAGEREADMEBANNER.png)
 <!-- BADGES: SAGE Status & Soul -->
 <p align="center">
-  <img src="https://img.shields.io/badge/status-in%20development-orange?style=flat-square&logo=github&logoColor=white" alt="Status Badge"/>
-  <img src="https://img.shields.io/badge/engine-UE5.5.4-5e97f6?style=flat-square&logo=unrealengine&logoColor=white" alt="Engine Badge"/>
-  <img src="https://img.shields.io/badge/made%20by-C38%20ImagineWorks-9b59b6?style=flat-square&logo=fortinet&logoColor=white" alt="Creator Badge"/>
-  <img src="https://img.shields.io/badge/soul-threadwoven-7f8c8d?style=flat-square&logo=magic-the-gathering&logoColor=white" alt="Soul Badge"/>
+  <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build Status" />
+  <img src="https://img.shields.io/badge/license-Proprietary-red" alt="License: Proprietary" />
+  <img src="https://img.shields.io/badge/version-0.1.0-lightgrey" alt="Engine Version" />
+  <img src="https://img.shields.io/github/issues/c38ImagineWorksDev/SAGE-ENGINE" alt="Open Issues" />
+  <img src="https://img.shields.io/github/forks/c38ImagineWorksDev/SAGE-ENGINE?style=social" alt="Forks" />
+  <img src="https://img.shields.io/github/stars/c38ImagineWorksDev/SAGE-ENGINE?style=social" alt="Stars" />
 </p>
+
 
 
 # STYNTHREAD ADVANCED GAME ENGINE (SAGE)
