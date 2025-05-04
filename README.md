@@ -1,4 +1,4 @@
-![SAGE Banner](Assets/Banner.png)
+![SAGE Banner](Assets/SAGEREADMEBANNER.png)
 
 # STYNTHREAD ADVANCED GAME ENGINE (SAGE)
 
