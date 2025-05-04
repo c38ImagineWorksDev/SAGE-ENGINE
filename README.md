@@ -1,4 +1,12 @@
 ![SAGE Banner](Assets/SAGEREADMEBANNER.png)
+<!-- BADGES: SAGE Status & Soul -->
+<p align="center">
+  <img src="https://img.shields.io/badge/status-in%20development-orange?style=flat-square&logo=github&logoColor=white" alt="Status Badge"/>
+  <img src="https://img.shields.io/badge/engine-UE5.5.4-5e97f6?style=flat-square&logo=unrealengine&logoColor=white" alt="Engine Badge"/>
+  <img src="https://img.shields.io/badge/made%20by-C38%20ImagineWorks-9b59b6?style=flat-square&logo=fortinet&logoColor=white" alt="Creator Badge"/>
+  <img src="https://img.shields.io/badge/soul-threadwoven-7f8c8d?style=flat-square&logo=magic-the-gathering&logoColor=white" alt="Soul Badge"/>
+</p>
+
 
 # STYNTHREAD ADVANCED GAME ENGINE (SAGE)
 
@@ -9,6 +17,14 @@ SAGE (STYNTHREAD Advanced Game Engine) is a next-generation game engine currentl
 More than an engine—SAGE is an act of reclamation, vision, and innovation. Built for devs who demand more from the systems they use, SAGE is being created from the ground up inside Unreal Engine 5 to redefine the meaning of *emotional consequence, memory-based logic,* and *player-driven immersion*.
 
 ---
+<!-- CUSTOM BADGES: SAGE Flex Mode -->
+<p align="center">
+  <img src="https://img.shields.io/badge/SAGE_Powered-🧵-6e44ff?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAV0lEQVR42mNgGAWjgBLy//8/AzS7u7uBjQD0jMEYJAM1guOBf0NwrEewjRMQFoL2AumAHoL0ABUUY0BvE5NTEGkBniB6A1QqM4gOYQwTAEGACCY8WvG1ZhoNAAAAAElFTkSuQmCC" alt="SAGE Powered Badge"/>
+  <img src="https://img.shields.io/badge/ThreadPrint_Enabled-🧠_💭-4ecca3?style=for-the-badge" alt="ThreadPrint Badge"/>
+  <img src="https://img.shields.io/badge/This_Engine_Should_Not_Exist-👁️‍🗨️-222831?style=for-the-badge" alt="Forbidden Badge"/>
+  <img src="https://img.shields.io/badge/Blueprint_First,_Code_Sharp-🔷_💻-007acc?style=for-the-badge" alt="Workflow Badge"/>
+  <img src="https://img.shields.io/badge/MMO_Ready_Soultech-🌐_🔥-e74c3c?style=for-the-badge" alt="MMO Soul Badge"/>
+</p>
 
 ## ⚙️ What Makes SAGE Different?
 
