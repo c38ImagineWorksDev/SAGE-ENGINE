@@ -53,6 +53,8 @@ More than an engine—SAGE is an act of reclamation, vision, and innovation. Bui
 The engine is currently in **early prototyping** and undergoing Blueprint + C++ hybrid development in Unreal Engine 5.5.4.  
 This repo exists to document the journey, celebrate the breakthroughs, and honor the threads that brought us here.
 
+📖 [Read the full Wiki](https://github.com/c38ImagineWorksDev/SAGE-ENGINE/wiki)
+
 ---
 
 ## ✊🏾 About C38 ImagineWorks
