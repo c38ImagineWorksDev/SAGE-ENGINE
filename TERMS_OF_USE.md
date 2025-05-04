@@ -1,3 +1,5 @@
+
+![Terms of Use Banner](docs/img/terms_of_use.png)
 # Terms of Use  
 **STYNTHREAD Advanced Game Engine (SAGE)**  
 **Developed by C38 ImagineWorks**
