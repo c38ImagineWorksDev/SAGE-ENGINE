@@ -8,7 +8,12 @@
   <img src="https://img.shields.io/github/forks/c38ImagineWorksDev/SAGE-ENGINE?style=social" alt="Forks" />
   <img src="https://img.shields.io/github/stars/c38ImagineWorksDev/SAGE-ENGINE?style=social" alt="Stars" />
 </p>
-
+![Player-First](https://img.shields.io/badge/PLAYER-FIRST-blueviolet?style=for-the-badge&logo=powerbi)
+![DRM-Free](https://img.shields.io/badge/DRM-FREE-brightgreen?style=for-the-badge&logo=unlock)
+![No-NFTs](https://img.shields.io/badge/NO-NFTS-critical?style=for-the-badge&logo=probot)
+![Mod-Friendly](https://img.shields.io/badge/MODDING-SUPPORTED-yellow?style=for-the-badge&logo=hackaday)
+![Complete-at-Launch](https://img.shields.io/badge/COMPLETE-at--launch-0099ff?style=for-the-badge&logo=checkmarx)
+![Microtransaction-Free](https://img.shields.io/badge/NO-MTX-red?style=for-the-badge&logo=cashapp)
 
 
 # STYNTHREAD ADVANCED GAME ENGINE (SAGE)
