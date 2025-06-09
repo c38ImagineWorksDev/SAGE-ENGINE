@@ -8,6 +8,28 @@
 > All notable changes to the STYNTHREAD Advanced Game Engine (SAGE) will be documented here.
 
 ---
+## [0.1.1] – The Thread Rewoven 🧶  
+**Date:** 2025-06-08  
+**Status:** Stable development reboot
+
+### ✨ Added
+- Reinitialized project under `SAGE_V1` with new folder structure and cleaned commit history
+- Integrated Unreal Engine 5.6 using the Third Person Combat Variant for enhanced movement and melee testing
+- Enabled hybrid C++/Blueprint development in fresh combat environment
+- Began rebuilding `UThreadMemory` class as first component in modular `ThreadPrint` system
+- Updated `.gitignore` for enhanced secret protection (env files, tokens, logs, etc.)
+- Confirmed clean GitHub state and integrated GitGuardian report feedback
+
+### 🔐 Security
+- Removed legacy folders from original SAGE repo
+- Nuked and rebuilt Git to purge high entropy strings and clear commit history risks
+- Snapshot backup saved locally to ensure file recovery
+
+### 🛠 In Progress
+- C++/Blueprint bridge setup for `UThreadMemory` and `FThreadMark`
+- Event-driven emotional tagging framework
+- ThreadSignal trigger system prep
+- Cross-module development setup (`ThreadLore`, `Syntaxbreaker`, `Forgiveness Logic`)
 
 ## [0.1.0] – The Thread Awakens 🌱
 **Date:** 2025-05-04  
