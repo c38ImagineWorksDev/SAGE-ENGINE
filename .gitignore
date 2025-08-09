@@ -1,13 +1,45 @@
+# Unreal Engine Generated Files
 Binaries/
 Build/
 DerivedDataCache/
 Intermediate/
 Saved/
-*.log
+
+# User/IDE Files
 .vscode/
 .idea/
 *.sln
 *.VC.db
 *.VC.opendb
+
+# Logs
+*.log
+
+# OS Generated Files
 .DS_Store
 Thumbs.db
+
+# Optional: Ignore Local Config (keep defaults only)
+Config/Default*.ini
+
+# Optional: Ignore Starter Content if not needed
+Content/StarterContent/
+
+# =======================
+# Original entries you had
+# =======================
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore node modules
+node_modules/
+
+# Ignore env files
+.env
+
+# Ignore build output
+dist/
+out/
