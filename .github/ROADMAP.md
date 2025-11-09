@@ -1,76 +1,146 @@
-# 🧵 SAGE Engine Roadmap
+# SAGE Engine — Roadmap
+> **STYNTHREAD Advanced Game Engine (SAGE)**  
+> “Born from Making Reality from Your Imagination.”
 
-> "This engine should not exist. But we gon' build it anyway."
-
-## 🚀 Overview
-The **STYNTHREAD Advanced Game Engine (SAGE)** is a proprietary, narrative-reactive engine designed by **C38 ImagineWorks** to weave consequence into every layer of gameplay. Below is the public roadmap outlining projected development phases, major feature drops, and timelines *(subject to refinement as the project scales)*.
-
----
-
-## 🗓️ PHASE ONE — Foundation *(Q2 2025)*
-**Goal:** Lay the architectural backbone of SAGE within UE5 and establish version control, documentation, and internal pipeline.
-
-- ✅ Create public GitHub repo with license, ToU, contribution guide  
-- ✅ Define core philosophy and memory-reactive systems *(ThreadPrint)*  
-- ✅ Build initial `ThreadMemoryComponent` and test logging blueprint  
-- ✅ Set up modular documentation *(README, SECURITY, SUPPORT, etc.)*  
-- 🔄 Start integrating `ThreadManager` logic into player actor  
-- ⏳ Begin working on custom Editor widgets for visual debugging  
-- 🛠️ **Tools:** GitHub, UE5, Blueprint/C++, Notion, Markdown
+**Current Track:** v0.2.x — *The Thread Stirs*  
+**Focus:** Gameplay & World Systems complete, Editor tools phase begins, Blueprint integration.
 
 ---
 
-## 🗓️ PHASE TWO — Core Modules *(Q3 2025)*
-**Goal:** Construct major SAGE subsystems with UI tools for interaction.
-
-- ⏳ `ThreadSense` input parser *(triggers ThreadPrint logs)*  
-- ⏳ `Syntaxbreaker` AI node recognition + pattern disruptor  
-- ⏳ Reactive HUD prototype *(emotional memory visualization)*  
-- ⏳ Save/Load memory state system w/ branching persistence  
-- ⏳ Blueprint-first visual interface for dev teams  
-- 🔐 Access control + dev-only editor permissions  
-- 🛠️ **Tools:** UE5 Blueprints, Datatables, Slate UI, JSON
+## Vision
+SAGE is a narrative-reactive layer on top of Unreal Engine that tracks emotion, memory, and consequence (ThreadPrint) and lets systems (Dialogue, Quests, Cinematics, UI, AI, etc.) react in sync.
 
 ---
 
-## 🗓️ PHASE THREE — Advanced Features *(Q4 2025)*
-**Goal:** Push into high-level abstraction tools and expand emotional depth.
-
-- ⏳ Layered consequence system *(Forgiveness Flags, Synaptic Echoes)*  
-- ⏳ Player/NPC behavioral imprint mapping  
-- ⏳ Emotional decay curve tracking  
-- ⏳ Lattice Integration *(endgame deity code bindings)*  
-- ⏳ `Threadweaver` Visual Debug Tool *(emotional heatmap overlay)*  
-
----
-
-## 🗓️ PHASE FOUR — Ecosystem & Extensions *(Q1 2026)*
-**Goal:** Finalize engine, introduce mod/dev support, and prepare showcase rollout.
-
-- ⏳ Create Documentation Site *(GitHub Pages / Docusaurus)*  
-- ⏳ Modding structure *(sandboxed runtime extensions)*  
-- ⏳ Integration with Steam Workshop or SAGE Workshop  
-- ⏳ Release alpha SDK for testing  
-- ⏳ Launch first game built entirely in SAGE  
+## Versioning
+- **vMAJOR.MINOR.PATCH – Codename**
+- v0.1.x — *The Thread Awakens* (foundation bootstraps)
+- **v0.2.x — *The Thread Stirs*** (you are here)
+- v0.3.x — *The Thread Weaves* (system layer + tooling)
+- v0.4.x — *The Thread Learns* (authoring tools, data assets)
+- v0.5.x — *The Thread Walks* (playable vertical slice)
+- v0.6.x+ — *The Thread Sings* (perf, multiplayer, beta prep)
 
 ---
 
-## 🗓️ LONG-TERM *(2026+)*
-**Goal:** Position SAGE as the defining engine in emotionally intelligent development.
+## Module Status Matrix
+**Legend:** ✅ Done  |  🔧 In progress  |  🧭 Planned  |  🧪 Experimental
 
-- 🌍 Host annual developer events *(ThreadJam)*  
-- 🧠 Procedural narrative AI integration  
-- 🎓 Indie tutorial pipeline + learning resources  
-- 🤝 License to select partner studios *(terms apply)*
+### Foundation
+- ✅ `SAGE_ThreadCore` — Core lifecycle/events, subsystem boot.
+- ✅ `SAGE_ThreadPrint` — Emotional memory & decision tracking.
+- ✅ `SAGE_ThreadLore` — Narrative state & dialogue memory.
+- ✅ `SAGE_ThreadSense` — Perception/aura/presence data.
+- ✅ `SAGE_ThreadTime` — Real-world ↔ in-game sync (Thread TimeSync).
+- ✅ `SAGE_ThreadAudio` — Reactive audio hooks.
+- ✅ `SAGE_ThreadData` — Save-state and data serialization.
+- ✅ `SAGE_ThreadPhysics` — Thread-based motion/impact affordances.
+- ✅ `SAGE_ThreadNetwork` — (base stubs) multiplayer aura sharing.
+
+### Gameplay & World
+- ✅ `SAGE_ThreadPlayer`
+- ✅ `SAGE_ThreadWorld`
+- ✅ `SAGE_ThreadCombat`
+- ✅ `SAGE_ThreadClasses`
+- ✅ `SAGE_ThreadInventory`
+- ✅ `SAGE_ThreadDialogue`
+- ✅ `SAGE_ThreadCinematics`
+- ✅ `SAGE_ThreadQuests`
+- ✅ `SAGE_ThreadUI`
+- 🔧 `SAGE_ThreadAI` — Thread-aware AI behaviors (feature growth)
+
+### Tools / Editor
+- ✅ `SAGE_ThreadCoreEditor` — Editor tab, settings, menus.
 
 ---
 
-## 🔔 Stay Updated
-Milestones, patch logs, and discussion threads will be posted in the  
-➡️ [**GitHub Discussions Tab**](https://github.com/c38ImagineWorksDev/SAGE-ENGINE/discussions)
+## v0.2.x — The Thread Stirs (Now)
+**Goal:** Lock core gameplay/world modules, enable end-to-end Blueprint usage, and stabilize Editor surface.
 
-> *The thread remembers. So should you.*
+### Delivered
+- All core gameplay/world subsystems compile and link together.
+- Dialogue ↔ Print ↔ Quests ↔ Cinematics ↔ UI handshakes.
+- Letterbox/HUD control through Cinematics + UI.
+- Core Editor module with tab, menus, and project settings.
+- Warnings cleanup (UE 5.6 include order, API deprecations).
+
+### In Flight (0.2.1–0.2.3)
+- 🔧 ThreadAI behavior hooks (perception → mood → action).
+- 🔧 Debug overlay panel (ThreadSync, mood, quest step, cine state).
+- 🔧 Event Bus (`UThreadEventHub`) for low-coupling cross-talk.
+- 🔧 Boot Profiles (configurable init order + health checks).
+- 🔧 Sample Blueprints per module (BP library parity).
+
+### Acceptance for 0.2.x
+- Play-in-Editor demo map: start → talk → quest tick → micro-cinematic → UI feedback loop.
+- All public Blueprint functions documented in tooltips.
+- Zero build errors on UE 5.6 + VS2022; warnings triaged.
 
 ---
 
-🧠 **C38 ImagineWorks** | SAGE Engine v0.1-alpha
+## v0.3.x — The Thread Weaves (Next)
+**Goal:** System Layer & Authoring
+
+- 🧭 Authoring Assets:
+  - Dialogue Graph Assets (speaker tags, conditional branches).
+  - Quest Graph Assets (stages, conditions, rewards, ThreadPrint deltas).
+  - Cinematic Profiles (camera rigs, mood curves, HUD policy).
+- 🧭 Editor Utilities:
+  - Thread Inspector (live view: mood, flags, recent deltas).
+  - Event Trace (who emitted what, when).
+- 🧭 Data Validation rules (soft fails with actionable messages).
+- 🧭 Pluginization pass (clean public/private headers, module deps).
+
+---
+
+## v0.4.x — The Thread Learns
+**Goal:** Tooling polish & creator experience.
+
+- 🧭 Data-driven balancing (scalars for mood/aggro/loot/XP).
+- 🧭 Asset templates & wizards (create quest/dialogue/cinematic in one click).
+- 🧭 Sample Project: **“ThreadTest Island”** with fully playable loop.
+
+---
+
+## v0.5.x — The Thread Walks
+**Goal:** Vertical Slice
+
+- 🧭 Feature-locked content slice (15–30 min).
+- 🧭 Performance pass (stat commands + built-in profile presets).
+- 🧭 Packaging & distribution pipeline (Win64 first).
+
+---
+
+## Tech Debt / Risks
+- Keep UE include-order current (`EngineIncludeOrderVersion.Unreal5_6`).
+- Track UE deprecations (array RemoveAt/RemoveAll swap → `EAllowShrinking`).
+- Hard ref checks between modules; prefer event hub to avoid cycles.
+
+---
+
+## Contributing
+We accept PRs aligned with the roadmap.
+
+**Style**  
+- C++: UE code style, SAGE headers with version/codename.  
+- Blueprint: Contextual categories (`SAGE|Dialogue`, etc.), rich tooltips.
+
+**Branching**  
+- `main` — stable.  
+- `develop` — integration.  
+- `feature/<module>-<short>` — focused changes.  
+- `docs/roadmap` — roadmap and docs updates.
+
+**Commit prefix**  
+- `feat(Dialogue):` `fix(Cinematics):` `refactor(Core):` `docs(Roadmap):` etc.
+
+---
+
+## Legal
+All code, names, and assets are **Intellectual Property of C38 ImagineWorks, LLC**.  
+Clones/forks retain original copyright headers. PRs are contributions under the repository license unless otherwise stated.
+
+**Contact:** info@c38imagineworks.com
+
+---
+_Last updated: {{TODAY}} — Maintainer: C38 ImagineWorks, LLC_
