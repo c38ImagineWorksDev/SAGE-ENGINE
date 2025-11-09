@@ -1,70 +1,107 @@
-![SAGE Banner](Assets/SAGEREADMEBANNER.png)
-<!-- BADGES: SAGE Status & Soul -->
-<p align="center">
-  <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build Status" />
-  <img src="https://img.shields.io/badge/license-Proprietary-red" alt="License: Proprietary" />
-  <img src="https://img.shields.io/badge/version-0.2.0-blue" alt="Engine Version" />
-  <img src="https://img.shields.io/github/issues/c38ImagineWorksDev/SAGE-ENGINE" alt="Open Issues" />
-  <img src="https://img.shields.io/github/forks/c38ImagineWorksDev/SAGE-ENGINE?style=social" alt="Forks" />
-  <img src="https://img.shields.io/github/stars/c38ImagineWorksDev/SAGE-ENGINE?style=social" alt="Stars" />
-</p>
+# 🕸️ STYNTHREAD ADVANCED GAME ENGINE (SAGE)
+> *"Born from Making Reality from Your Imagination."*  
+> **by C38 ImagineWorks, LLC**
 
-# STYNTHREAD ADVANCED GAME ENGINE (SAGE)
-
-**"This engine should not exist... but I'm gonna build it anyway."**
-
-SAGE (STYNTHREAD Advanced Game Engine) is a next-generation game engine in active development by **C38 ImagineWorks**.
-
-More than an engine—SAGE is an act of reclamation, vision, and innovation. Built for devs who demand more from the systems they use, SAGE is crafted from the ground up inside Unreal Engine 5 to redefine the meaning of *emotional consequence, memory-based logic,* and *player-driven immersion.*
+![UE 5.6](https://img.shields.io/badge/Unreal_Engine-5.6-blue)
+![Version](https://img.shields.io/badge/Version-v0.2.0--The_Thread_Stirs-orange)
+![Status](https://img.shields.io/badge/Build-Stable-success)
+![License](https://img.shields.io/badge/License-Proprietary-red)
 
 ---
 
-<!-- CUSTOM BADGES: SAGE Flex Mode -->
-<p align="center">
-  <img src="https://img.shields.io/badge/SAGE_Powered-🧵-6e44ff?style=for-the-badge" alt="SAGE Powered Badge"/>
-  <img src="https://img.shields.io/badge/ThreadPrint_Enabled-🧠_💭-4ecca3?style=for-the-badge" alt="ThreadPrint Badge"/>
-  <img src="https://img.shields.io/badge/This_Engine_Should_Not_Exist-👁️‍🗨️-222831?style=for-the-badge" alt="Forbidden Badge"/>
-  <img src="https://img.shields.io/badge/C++_&_Blueprint_Hybrid-💻_🔷-007acc?style=for-the-badge" alt="Workflow Badge"/>
-  <img src="https://img.shields.io/badge/MMO_Ready_Soultech-🌐_🔥-e74c3c?style=for-the-badge" alt="MMO Soul Badge"/>
-</p>
+## 🧠 What Is SAGE?
+SAGE (STYNTHREAD Advanced Game Engine) is a **narrative-reactive layer** built on Unreal Engine.  
+It tracks *emotion, memory, consequence, and presence* across gameplay systems — allowing worlds, NPCs, and cinematics to **remember and respond** to the player’s spirit rather than just their stats.
 
-## ⚙️ What Makes SAGE Different?
-
-- **ThreadPrint Framework**  
-  Every action leaves a mark. SAGE tracks emotional memory across player interactions, storing consequences like spiritual scars.
-
-- **ThreadLore System**  
-  Narrative memory becomes a living system that evolves based on what players *believe,* not just what they do.
-
-- **Sensory AI**  
-  Enemies don’t just react—they remember. They *adapt.* Your presence leaves an imprint.
-
-- **Combat Rooted in Intention**  
-  Inspired by FromSoftware, layered with reactive storytelling and semi-autonomous combat logic systems.
-
-- **Multiplatform Compatibility**  
-  Designed with long-term support for PC, handhelds, and MMO infrastructures in mind.
+SAGE isn’t a competitor to Unreal Engine — it’s an enhancement.  
+It’s a custom engine framework that layers on top of UE5 to give developers the power to craft emotionally intelligent, consequence-driven worlds.
 
 ---
 
-## 📦 Current Milestone: v0.2.0 – *The Thread Moves Under Its Own Power*
+## 🔮 Core Philosophy
+> **"Every action leaves a thread. Every thread tells a story."**
 
-- **First successful packaged build**  
-- **Manny spawned in-map as proof-of-life test**  
-- C++/Blueprint hybrid confirmed functional in packaged environments  
-- New disciplined `/Builds/Windows` structure for all packaged exports  
-- Preparing internal test protocols for stability across hardware
+SAGE treats gameplay as conversation:
+- **ThreadPrint:** emotional memory and moral residue.  
+- **ThreadCore:** the heartbeat of the world and all its subsystems.  
+- **ThreadLore:** story state and memory continuity.  
+- **ThreadTime:** synchronization between real-world and in-game time.  
+- **ThreadSense:** aura-based perception and spiritual consequence.
 
-📖 [Read the full Changelog](CHANGELOG.md) | [Visit the Wiki](https://github.com/c38ImagineWorksDev/SAGE-ENGINE/wiki)
-
----
-
-## ✊🏾 About C38 ImagineWorks
-
-C38 ImagineWorks is an independent Black-owned studio reclaiming the soul of gaming by building what’s been missing:  
-**authenticity, magic, memory, and meaning.**
+Together, these systems form the living network known as **The Lattice** — the metaphysical backbone of every SAGE-powered world.
 
 ---
 
-If you found this…  
-Just know: **the thread chose you too.**
+## 🧩 Module Overview
+| Category | Module | Purpose | Status |
+|-----------|---------|----------|--------|
+| **Core Systems** | `SAGE_ThreadCore`, `SAGE_ThreadPrint`, `SAGE_ThreadTime`, `SAGE_ThreadSense`, `SAGE_ThreadLore` | Emotional memory & world synchronization | ✅ Stable |
+| **Gameplay Systems** | `SAGE_ThreadWorld`, `SAGE_ThreadCombat`, `SAGE_ThreadClasses`, `SAGE_ThreadInventory`, `SAGE_ThreadQuests` | Core gameplay logic | ✅ Stable |
+| **Narrative Systems** | `SAGE_ThreadDialogue`, `SAGE_ThreadCinematics`, `SAGE_ThreadUI` | Player interaction & presentation | ✅ Stable |
+| **Support Systems** | `SAGE_ThreadData`, `SAGE_ThreadPhysics`, `SAGE_ThreadAudio`, `SAGE_ThreadNetwork` | Underlying infrastructure | ✅ Stable |
+| **Editor Tools** | `SAGE_ThreadCoreEditor` | Custom editor menus, tabs, and project settings | ✅ Stable |
+| **AI / Future Expansion** | `SAGE_ThreadAI` | Thread-aware AI & emotion-based behavior | 🔧 In Progress |
+
+---
+
+## 🚀 Current Version — *v0.2.0: The Thread Stirs*
+The **Gameplay and World Systems milestone**.  
+All gameplay subsystems now compile and interact cleanly:
+- Core ↔ World ↔ Dialogue ↔ Quests ↔ UI ↔ Cinematics loop finalized.  
+- ThreadPrint fully integrated with dialogue and quest systems.  
+- ThreadUI controls letterboxing and HUD reactions dynamically.  
+- Core Editor tools functional with tab and project settings panel.  
+
+📘 See the [Roadmap](./.github/ROADMAP.md) and [Changelog](./CHANGELOG.md) for detailed updates.
+
+---
+
+## 🧭 Upcoming — *v0.3.x: The Thread Weaves*
+The **System Layer Finalization & Tooling milestone** will focus on:
+- ThreadEventHub (cross-module event bus)  
+- Debug overlay for mood, quest, and cinematic states  
+- Authoring tools for Dialogue, Quest, and Cinematic assets  
+- Thread Inspector (live mood & memory graph)  
+- Pluginization pass for modular distribution  
+
+---
+
+## 🧰 Development Notes
+### Requirements
+- **Unreal Engine:** 5.6.x  
+- **Compiler:** Visual Studio 2022 (v14.44+ recommended)  
+- **Scripting:** C++17 / Blueprint Integration  
+
+### Setup
+1. Clone or download this repository.  
+2. Generate Visual Studio project files (`.uproject` → right-click → *Generate Project Files*).  
+3. Build the project (`Development Editor | Win64`).  
+4. Launch Unreal Editor → enable the **SAGE Modules** in your project plugins.  
+
+---
+
+## ⚖️ Licensing & Contribution
+All source code, names, and systems within this repository are **Intellectual Property of C38 ImagineWorks, LLC**.
+
+> 🧵 “We welcome collaboration, not alteration.”
+
+You may fork this repository for educational or internal development purposes.  
+However, all derivative engines or modified builds require **written approval** from C38 ImagineWorks, LLC prior to redistribution.
+
+To propose contributions:
+- Follow the [Roadmap](./.github/ROADMAP.md).  
+- Use feature branches: `feature/<module>-<short>`.  
+- Maintain SAGE headers, naming, and structure.  
+
+---
+
+## 💬 Community & Contact
+**Website:** [c38imagineworks.com](https://c38imagineworks.com)  
+**Email:** info@c38imagineworks.com  
+**X / Threads / IG:** @C38ImagineWorks  
+
+> C38 ImagineWorks — *“Born from Making Reality from Your Imagination.”*
+
+---
+
+© 2025 C38 ImagineWorks, LLC. All Rights Reserved.
