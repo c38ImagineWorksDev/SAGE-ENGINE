@@ -1,95 +1,86 @@
-# CONTRIBUTING TO SAGE
-## SYNTHREAD ADVANCED GAME ENGINE – PRIVATE CONTRIBUTION GUIDELINES
-
-Welcome to the inner sanctum.
-
-The SYNTHREAD ADVANCED GAME ENGINE (SAGE) is a proprietary development framework maintained by **C38 ImagineWorks**. At this time, contributions are limited to internal developers, approved collaborators, or licensed partners working under signed agreements.
+# 🕸️ CONTRIBUTING TO SAGE
+### SYNTHREAD ADVANCED GAME ENGINE (SAGE)
+**“Born from Making Reality from Your Imagination.”**
 
 ---
 
-## 🔒 WHO CAN CONTRIBUTE?
+## 🔒 Access & Contribution Policy
+The **S.Y.N.T.H.R.E.A.D. Advanced Game Engine (SAGE)** is a proprietary framework maintained by **C38 ImagineWorks LLC**.  
+At this time, contributions are **invitation-only** and limited to verified internal developers, approved collaborators, and licensed studio partners under active NDA.
 
-Contributions are currently **invitation-only** and must be pre-approved by C38 ImagineWorks. Any collaborator must sign an NDA and a custom licensing agreement before gaining access.
-
-If you are interested in contributing or collaborating, email:
-
-**📧 c38imagineworks@gmail.com**
-
----
-
-## 🔁 BRANCHING STRATEGY
-
-We use a protected and deliberate Git flow structure:
-
-- `master` — Stable production-ready code. Only reviewed & approved merges go here.
-- `dev` — Experimental or ongoing work. Can be volatile.
-- `feature/*` — Specific feature branches (e.g. `feature/threadprint-core`)
-- `hotfix/*` — For emergency fixes or patch releases
-- `docs/*` — For readme, wiki, and documentation updates
-
-**All code must be reviewed by a lead developer before merging into `master`.**
+If you believe your expertise aligns with SAGE’s development philosophy and you’d like to collaborate, reach out directly:  
+📧 **c38imagineworks@gmail.com**
 
 ---
 
-## 🔧 BLUEPRINT AND C++ STRUCTURE
+## 🔁 Branching & Version Control
+SAGE uses a protected Git flow built around deliberate, stable iteration.
 
-Even in early prototyping, we honor sacred conventions:
+| Branch | Purpose |
+|---------|----------|
+| `main` | Production-ready, stable builds only. |
+| `dev` | Active development branch — volatile, experimental. |
+| `feature/*` | Dedicated feature branches (e.g. `feature/threadprint-refactor`). |
+| `hotfix/*` | Critical fixes applied post-release. |
+| `docs/*` | Documentation and Markdown updates only. |
 
-### 📁 Folder Structure
-Use the following format:
-
-/SAGE_Core/
-
-/SAGE_Blueprints/
-
-/SAGE_Structs/
-
-/SAGE_Functions/
-
-/SAGE_UI/
-
-/SAGE_Docs/
-
-/SAGE_DeveAssets/
-
-/SAGE_Effects/
-
-/SAGE_Tests/
-
-
-### ✍🏾 Variable Naming (Blueprint)
-- PascalCase for public variables (e.g. `TargetName`, `ThreadPrintLog`)
-- Prefix private vars with `_` if needed
-- Use clear, intention-driven names (no vague `Temp1`, `Stuff`, etc.)
-
-### ⚙️ Commenting
-- All major Blueprint sections must be commented
-- Use reroute nodes to improve readability
-- Custom events and dispatchers must have labels
+All code is reviewed before merging to `main`.  
+Pull requests must be descriptive, well-documented, and traceable to a specific version milestone.
 
 ---
 
-## 🧵 CONTRIBUTION PHILOSOPHY
+## ⚙️ Structure & Style
+Even in prototyping, discipline matters.  
+Every line, node, and variable in SAGE carries narrative and mechanical consequence.
 
-> "This engine should not exist…  
-But we’re building it anyway."
+### 📁 Folder Hierarchy
+Organize all assets under `/Source/` using this structure:
 
-SAGE is a rebellion against traditional design, memory-less code, and disposable interactions. Every node, function, and comment is a stitch in a larger weave.
+/SAGE_ThreadCore/
+/SAGE_ThreadPrint/
+/SAGE_ThreadUI/
+/SAGE_ThreadCinematics/
+/SAGE_ThreadDialogue/
+/SAGE_ThreadWorld/
+/SAGE_ThreadQuests/
+etc.
 
-Build with purpose.  
+
+### ✍🏾 Variable & Class Naming
+- **C++:** PascalCase for classes, camelCase for variables.  
+- **Blueprints:** PascalCase for public variables, `_` prefix for privates.  
+- No “Temp1” or “Thingy.” Every name reflects its intent.  
+
+### 💬 Comments & Documentation
+- Use inline comments to explain *why*, not just *what*.  
+- Blueprint graphs should flow logically with reroute nodes for readability.  
+- Each function and event should have a description header.
+
+---
+
+## 🧵 Contribution Philosophy
+> “This engine should not exist — but we’re building it anyway.”
+
+SAGE is built on rebellion: against disposable code, soulless systems, and hollow design.  
+Every module, every subsystem, every comment is part of the weave.  
+
+Build with memory.  
 Design with consequence.  
 Respect the Thread.
 
 ---
 
-## 🧠 FINAL NOTES
-
-- Do not push to `master` directly unless instructed.
-- Keep your Blueprint graphs clean and readable.
-- All Pull Requests will be reviewed before merging.
-- Contact **C38 ImagineWorks** before integrating outside libraries or assets.
+## 🧠 Final Guidelines
+- Never push directly to `main` without approval.  
+- Keep all Blueprints and graphs clean, aligned, and labeled.  
+- External libraries or assets must be cleared by **C38 ImagineWorks** before integration.  
+- Each contribution should leave the engine more alive, not just more complex.
 
 ---
 
-Thank you for helping thread the impossible.  
-— C38 ImagineWorks
+### 🪶 Closing Note
+Thank you for helping weave the impossible.  
+Together, we are building the first emotionally reactive engine in modern gaming.  
+
+— **C38 ImagineWorks LLC**  
+🕸️ *“The Thread Remembers.”*
